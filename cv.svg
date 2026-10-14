@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: 'Arial', sans-serif; font-weight: 900; font-size: 28px; }
+      .text { font-family: 'Arial', sans-serif; font-size: 13.5px; fill: #222; }
+      .bold { font-weight: bold; }
+      .btn-text { font-family: 'Arial', sans-serif; font-weight: bold; font-size: 14px; fill: #fff; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- الخلفية -->
+  <rect width="600" height="850" fill="#ffffff" />
+
+  <!-- الشعار (Logo) -->
+  <g transform="translate(300, 60)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="34" fill="#111" letter-spacing="1">CHECK<tspan fill="#111">24</tspan></text>
+    <!-- القوس أسفل 24 -->
+    <path d="M 45 8 Q 60 20 80 8" fill="none" stroke="#111" stroke-width="2.5" />
+  </g>
+
+  <!-- النصوص -->
+  <g transform="translate(60, 120)">
+    <!-- التحية -->
+    <text x="0" y="0" class="text bold" font-size="14">Sehr geehrte(r) Kundin/Kunde,</text>
+
+    <!-- الفقرة الأولى -->
+    <text x="0" y="35" class="text">im Rahmen einer regelmäßigen Überprüfung Ihres Kontos haben wir einen</text>
+    <text x="0" y="53" class="text">Guthabensaldo in Höhe von <tspan class="bold" font-size="14">170,79 EUR</tspan> festgestellt, der Ihnen zusteht. Bei</text>
+    <text x="0" y="71" class="text">diesem Betrag handelt es sich um eine Erstattung für bereits bezahlte,</text>
+    <text x="0" y="89" class="text">jedoch nicht vollständig in Anspruch genommene Leistungen.</text>
+
+    <!-- العنوان الفرعي (الخطوة) -->
+    <text x="0" y="130" class="text bold" font-size="13.5">Um die Rückerstattung zu veranlassen und den Betrag zu erhalten,</text>
+    <text x="0" y="148" class="text bold" font-size="13.5">führen Sie bitte den folgenden Schritt aus:</text>
+
+    <!-- الفقرة الثانية -->
+    <text x="0" y="185" class="text">Hinterlegen Sie hierfür bitte dieselbe Kredit- oder Debitkarte, die Sie</text>
+    <text x="0" y="203" class="text">ursprünglich für die Zahlung oder Anmeldung verwendet haben.</text>
+
+    <!-- الفقرة الثالثة -->
+    <text x="0" y="240" class="text">Dieser Schritt dient Ihrer Identifikation und stellt sicher, dass die</text>
+    <text x="0" y="258" class="text">Zahlungsdaten übereinstimmen.</text>
+
+    <!-- الفقرة الرابعة -->
+    <text x="0" y="295" class="text">Nach erfolgreicher Prüfung wird der Betrag umgehend und direkt Ihrer</text>
+    <text x="0" y="313" class="text">hinterlegten Karte gutgeschrieben.</text>
+
+    <!-- العنوان الفرعي (هام) -->
+    <text x="0" y="355" class="text bold" font-size="13.5">Wichtiger Hinweis:</text>
+    
+    <!-- الفقرة الخامسة -->
+    <text x="0" y="378" class="text">Aus Sicherheits- und Effizienzgründen erfolgen Rückabwicklungen bei uns</text>
+    <text x="0" y="396" class="text">grundsätzlich über dasselbe Zahlungsmittel, das auch für die ursprüngliche</text>
+    <text x="0" y="414" class="text">Transaktion genutzt wurde. Dieses Verfahren schützt Sie vor Fehlern und</text>
+    <text x="0" y="432" class="text">gewährleistet die Vertraulichkeit Ihrer Daten. Daher ist eine Auszahlung auf</text>
+    <text x="0" y="450" class="text">eine andere Karte oder ein alternatives Konto leider nicht möglich.</text>
+
+    <!-- الفقرة السادسة -->
+    <text x="0" y="490" class="text">Sie können den Überprüfungsvorgang jetzt direkt über Ihr Kundenkonto</text>
+    <text x="0" y="508" class="text">auf unserer Webseite starten.</text>
+  </g>
+
+  <!-- الزر الأسود -->
+  <g transform="translate(60, 550)">
+    <rect width="480" height="65" rx="4" fill="#111" />
+    <text x="240" y="30" class="btn-text">Hier klicken, um sich in Ihr Konto einzuloggen und den</text>
+    <text x="240" y="52" class="btn-text">Vorgang zu starten</text>
+  </g>
+
+  <!-- الخاتمة -->
+  <g transform="translate(300, 670)">
+    <text x="0" y="0" text-anchor="middle" class="text" font-size="13">Vielen Dank für Ihre Kooperation.</text>
+    
+    <text x="0" y="40" text-anchor="middle" class="text bold" font-size="13">Mit freundlichen Grüßen</text>
+    <text x="0" y="58" text-anchor="middle" class="text bold" font-size="13">Ihr Kundenservice-Team</text>
+  </g>
+
+</svg>
